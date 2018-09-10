@@ -21,10 +21,16 @@ with open(sys.argv[1]) as infile:
             if not word in word_contexts:
                 word_contexts[word] = Counter()
             
+            # if not the first word in the sentence
             if i > 0:
-                word_contexts[word][tokens[i-1]] += 1
+                word_contexts[word][tokens[i-1]] += 2
             if i + 1 < len(tokens):
-                word_contexts[word][tokens[i+1]] += 1
+                word_contexts[word][tokens[i+1]] += 2
+
+            if i > 1:
+                word_contexts[word][tokens[i-2]] += 1
+            if i + 2 < len(tokens):
+                word_contexts[word][tokens[i+2]] += 1
 
 def similarity(a, b):
     
@@ -46,7 +52,8 @@ def similarity(a, b):
 cluster_counts = []
 cluster_words = []
 
-for word, n in all_words.most_common(5000):
+for word, n in all_words.most_common(500):
+    # each of first 200 words get own cluster
     if len(cluster_counts) < 200:
         cluster_counts.append(word_contexts[word].copy())
         cluster_words.append([word])
@@ -65,3 +72,13 @@ for word, n in all_words.most_common(5000):
 
 for cluster in cluster_words:
     print(" ".join(cluster))
+
+# words cases problems people things questions
+# >>> word_contexts["people"].most_common(30)
+# [('', 78), ('of', 61), ('many', 27), ('who', 26), ('with', 22), 
+# ('use', 21), ('that', 21), ('in', 20), ('the', 20), ('are', 18), 
+# ('to', 16), ('have', 12), ('other', 12), ('some', 10), ('for', 10), 
+# ('s', 10),('different', 9), ('Some', 9), ('most', 9), ('usually', 9),
+#  ('do', 9), ('how', 7), ('where', 7), ('will', 7), ('seen', 7), 
+# ('why', 7), ('would', 7), ('and', 6), ('can', 6), ('from', 6)]
+
