@@ -54,6 +54,7 @@ doc_dirichlet_prior = 10.0 * numpy.ones(num_topics)
 word_dirichlet_prior = 10.0 * numpy.ones(vocab_size)
 
 ## for docs the distribution is over topics
+# taking numdocs samples as th
 current_doc_topics = numpy.random.dirichlet(doc_dirichlet_prior, num_docs)
 
 ## columns are distributions, so transpose the word distributions
@@ -86,26 +87,42 @@ def iterate():
             
             #print(current_doc_topics[doc_id,:])
             
-            ## Get the expectation of the posterior probability of each
+            ## Get the sampling_distribution of the posterior probability of each
             ##  topic for this word, and divide the probability.
-            expectation = current_doc_topics[doc_id,:] * (current_word_topics[word_id,:])
+            sampling_distribution = current_doc_topics[doc_id,:] * (current_word_topics[word_id,:])
             
-            sum_expectation = numpy.sum(expectation)
-            model_log_likelihood += count * numpy.log(sum_expectation)
+            sum_probs = numpy.sum(sampling_distribution)
+            model_log_likelihood += count * numpy.log(sum_probs)
             
-            expectation /= sum_expectation  ## normalize
-            expectation *= count ## scale up to the token count
+            sampling_distribution /= sum_probs  ## normalize
+
+
+            # sampling_distribution *= count ## scale up to the token count
+            new_topics = numpy.random.choice( num_topics, count, p=sampling_distribution )
             
-            new_doc_topics[doc_id,:] += expectation
-            new_word_topics[word_id,:] += expectation
+            for z in new_topics:
+                # counting how many time from samples you've seen this topic in a doc
+                # and seeing this word in a topic
+                new_doc_topics[doc_id,z] += 1
+                new_word_topics[word_id,z] += 1
+
     
+    alpha = 0.1
+    beta = 0.01 
+
     ## Normalize the document distributions along rows
-    row_sums = numpy.sum(new_doc_topics, axis=1)
-    new_doc_topics /= row_sums[:, numpy.newaxis]
+    for doc_id in range(num_docs):
+        # draw from posterior 
+        new_doc_topics[doc_id, :] = numpy.random.dirichlet( alpha + new_doc_topics[doc_id, :], 1 )
+
+    for topic in range(num_topics):
+        new_word_topics[:, topic] = numpy.random.dirichlet( beta + new_word_topics[:, topic], 1)
+    # row_sums = numpy.sum(new_doc_topics, axis=1)
+    #new_doc_topics /= row_sums[:, numpy.newaxis]
     
     ## Normalize the topic distributions along columns
-    col_sums = numpy.sum(new_word_topics, axis=0)
-    new_word_topics /= col_sums[numpy.newaxis, :]
+    #col_sums = numpy.sum(new_word_topics, axis=0)
+    #new_word_topics /= col_sums[numpy.newaxis, :]
     
     return (model_log_likelihood, new_doc_topics, new_word_topics)
 

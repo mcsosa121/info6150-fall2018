@@ -124,6 +124,6 @@ for iteration in range(num_iterations):
     ll, new_doc, new_word = iterate()
     current_doc_topics = new_doc
     current_word_topics = new_word
-    if ((iteration+1) % 5 == 0):
-        print_top_words()
+    # if ((iteration+1) % 5 == 0):
+    #     print_top_words()
     print(ll)
