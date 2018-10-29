@@ -153,3 +153,10 @@ def train():
                 print("{}\t{}".format(words_so_far, total_loss / display_interval))
                 total_loss = 0.0
                 nearest("regression", 10)
+
+
+if __name__ == '__main__':
+    train()
+    normalized_embeddings = l2_norm(counter_embeddings)
+    word_id = reverse_vocab["regression"]
+    word_scored = rank_words(normalized_embeddings.dot(normalized_embeddings[word_id, :]))
