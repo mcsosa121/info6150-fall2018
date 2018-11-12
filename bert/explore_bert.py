@@ -1,6 +1,6 @@
 import ujson, sys, numpy
-import matplotlib
-import matplotlib.pyplot as pyplot
+# import matplotlib
+# import matplotlib.pyplot as pyplot
 
 sentences = []
 
@@ -29,6 +29,6 @@ def nearest(i):
     sorted_tokens = sorted(zip(token_vectors.dot(token_vectors[i,:]), tokens), reverse=True)
     [s for x, s in sorted_tokens[:100]]
 
-def hist(x):
-    n, bins, patches = pyplot.hist(x, 50, density=True)
-    pyplot.show()
+# def hist(x):
+#     n, bins, patches = pyplot.hist(x, 50, density=True)
+#     pyplot.show()
