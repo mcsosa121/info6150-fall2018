@@ -5,7 +5,7 @@ from scipy.stats import poisson
 all_words = Counter()
 word_contexts = {}
 
-stopwords = set("the to a of I is and in you that for itdata this have be with are can on as not".split())
+stopwords = set("the to a of I is and in you that for it data this have be with are can on as not".split())
 
 corpus_size = 0
 sum_squared_lengths = 0
@@ -34,6 +34,7 @@ with open(sys.argv[1]) as infile:
         for i in range(len(tokens) - 1):
             left_word = tokens[i]
             
+            # will go through all the pairs
             if not left_word in word_contexts:
                 word_contexts[left_word] = Counter()
                 

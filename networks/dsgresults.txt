@@ -1,0 +1,113 @@
+Final Iterations: 30
+
+71667.68618314074
+more (7.83) than (7.10) much (6.11) might (5.23) very (4.90)
+    may (4.45) less (4.20) too (4.18) well (3.66) high (3.59) 
+    enough (3.31) even (3.05) small (2.75) because (2.70) better (2.60) 
+    often (2.30) complex (2.13) likely (2.00) probably (1.95) low (1.92)
+
+64494.578510827945
+sum (9.68) $$ (8.46) frac (8.01) i$ (3.39) begin (2.95)
+    1$ (2.79) i=1 (2.74) equation (2.71) where (2.58) function (2.34)
+    $x (2.31) hat (2.29) left (2.18) 0$ (2.17) mathbb (2.11) 
+    log (2.07) probability (1.93) cdot (1.91) end (1.78) amp (1.68)
+
+57195.11611511673
+12 (1.77) 11 (1.71) 13 (1.09) 23 (0.90) 48 (0.86) 10 (0.84) 
+    16 (0.84) 43 (0.81) 22 (0.79) 14 (0.76) 17 (0.75) 21 (0.69)
+     88 (0.69) 38 (0.68) 87 (0.64) 62 (0.64) 07 (0.63) 35 (0.62) 2017 (0.62) 33 (0.61)
+
+54536.06200603611
+science (2.29) company (1.60) who (1.46) scientist (1.45) etc (1.31) 
+    statistics (1.30) business (1.28) job (1.23) tools (1.18) field (1.11)
+    people (1.11) analyst (1.08) analysis (1.04) years (0.96) software (0.95)
+    project (0.95) infrastructure (0.93) companies (0.91) education (0.90) programming (0.90)
+
+53387.14504173702
+reward (7.79) action (7.52) state (6.08) policy (5.25) actions (5.05) rewards (3.89) RL (3.36) agent (2.69) states (2.44) value (2.39) current (2.38) update (2.20) environment (2.13) next (2.06) $s$ (2.04) step (2.03) gamma (1.90) discount (1.88) TD (1.86) $R (1.86)
+
+51503.27315632939
+we (9.62) We (8.31) our (7.32) Let (6.79) us (3.79) where (3.72) Now (3.71) 1$ (3.59) frac (2.98) above (2.94) $x$ (2.68) let (2.68) assume (2.64) $x (2.49) $y$ (2.21) say (2.19) So (1.90) 2$ (1.85) Thus (1.84) $n$ (1.79)
+
+51282.75442965581
+There (4.44) no (3.24) most (2.67) could (2.64) they (2.56) ways (2.37) specific (2.36) lot (2.35) their (2.31) likely (2.14) many (1.93) information (1.74) might (1.62) perhaps (1.44) some (1.42) probably (1.41) may (1.40) approach (1.29) knowledge (1.26) approaches (1.21)
+
+49157.98503419528
+because (9.20) actually (3.55) That (2.50) just (2.40) only (2.38) still (2.29) no (2.28) they (2.26) don (2.20) This (2.20) work (1.98) being (1.79) makes (1.73) part (1.71) So (1.63) fact (1.58) To (1.48) really (1.48) doesn (1.45) same (1.42)
+
+46112.30011035154
+learn (4.85) game (4.34) games (3.07) play (2.82) agent (2.82) actions (2.61) action (2.45) reward (2.27) position (2.01) optimal (1.95) still (1.89) learns (1.89) even (1.89) However (1.88) policy (1.77) RL (1.76) reinforcement (1.74) like (1.65) against (1.62) moves (1.60)
+
+44812.14491644276
+gradient (9.72) update (5.47) descent (5.12) rate (4.52) weights (4.22) gradients (3.30) error (2.44) iteration (2.39) back (2.27) Gradient (2.21) weight (2.18) function (2.10) loss (2.05) updates (1.97) convergence (1.87) minimum (1.74) bias (1.50) optimization (1.43) backpropagation (1.42) step (1.41)
+
+44033.40733756063
+network (13.60) layer (13.33) input (12.56) neural (9.11) layers (8.72) output (8.38) inputs (5.73) hidden (5.34) networks (4.32) neurons (3.55) weights (3.24) size (3.23) activation (3.03) connected (2.49) architecture (2.22) outputs (2.21) shape (2.07) feed (1.90) neuron (1.90) convolutional (1.90)
+42930.14367468231
+about (3.93) go (3.78) going (3.40) out (2.91) things (2.59) think (2.45) they (2.44) work (2.13) something (2.11) people (2.03) re (2.00) bit (1.90) really (1.89) good (1.77) doing (1.74) ll (1.68) don (1.68) little (1.62) get (1.61) lot (1.58)
+42007.551631150134
+time (5.43) user (4.27) day (4.01) series (3.77) users (3.56) days (2.58) item (2.25) products (2.25) system (2.20) predict (2.16) items (2.13) month (2.07) product (1.93) year (1.92) customer (1.88) past (1.79) years (1.74) sales (1.70) recommendation (1.70) forecast (1.62)
+41607.106138625015
+words (10.86) word (9.13) text (5.85) document (3.85) documents (3.35) vectors (3.08) word2vec (2.98) sentence (2.97) embeddings (2.71) vector (2.56) sentences (2.49) embedding (2.47) representation (2.08) corpus (2.06) bag (2.02) frequency (1.91) similarity (1.90) NLP (1.84) language (1.57) semantic (1.44)
+36594.82570393851
+training (12.72) validation (5.91) train (5.34) parameters (4.98) model (4.72) overfitting (4.33) epochs (3.87) accuracy (3.60) rate (3.41) trained (3.09) loss (2.95) test (2.92) increase (2.66) epoch (2.25) parameter (2.20) batch (2.17) dropout (2.15) hyper (2.15) regularization (2.13) overfit (2.04)
+35665.54085499408
+distribution (8.53) probability (3.11) distributions (2.90) In (2.74) problem (2.29) case (2.19) likelihood (1.73) anomaly (1.66) sample (1.65) cases (1.55) normal (1.53) estimate (1.49) Gaussian (1.46) detection (1.29) assumptions (1.23) prior (1.19) solve (1.14) samples (1.13) assumption (1.12) conditional (1.06)
+35347.30370019774
+large (3.22) hand (1.95) On (1.80) number (1.59) memory (1.30) larger (1.28) Hadoop (1.08) small (1.06) operation (1.03) other (0.99) size (0.94) distributed (0.92) smaller (0.91) within (0.80) Spark (0.78) scale (0.77) process (0.72) slower (0.70) operations (0.69) et (0.68)
+35068.243613219594
+make (4.05) was (3.85) even (2.99) tried (2.86) sure (2.54) were (2.51) had (2.50) either (2.41) seem (2.37) sense (2.25) out (2.20) still (2.15) seems (1.68) whether (1.66) made (1.48) but (1.33) did (1.30) ve (1.24) didn (1.18) always (1.17)
+34633.91467762766
+layers (4.95) layer (4.76) convolutional (4.37) convolution (4.30) pooling (3.45) connected (3.44) fully (3.40) filters (3.39) CNN (3.05) filter (2.83) architecture (2.64) Convolutional (2.64) Neural (2.36) maps (2.20) image (2.15) Networks (1.92) size (1.83) paper (1.75) depth (1.73) network (1.67)
+34398.22249652202
+between (6.94) distance (6.28) clustering (4.83) points (4.28) clusters (4.18) cluster (4.01) similarity (3.16) two (2.77) plot (2.19) nearest (2.05) distances (2.01) cosine (1.92) space (1.89) measure (1.73) means (1.55) Euclidean (1.54) vectors (1.50) difference (1.49) neighbors (1.39) point (1.32)
+34312.58773849029
+time (5.15) sequence (4.04) LSTM (3.99) steps (3.89) step (3.47) previous (2.76) state (2.66) next (2.35) RNN (2.30) series (2.04) sequences (2.04) length (1.92) window (1.90) cell (1.76) batch (1.72) timesteps (1.65) after (1.56) every (1.50) LSTMs (1.38) current (1.35)
+34202.138304676024
+code (2.99) been (1.89) run (1.72) Tensorflow (1.32) ve (1.27) libraries (1.24) Keras (1.17) running (1.15) GPU (1.13) TensorFlow (1.13) up (1.11) come (1.10) implementation (0.98) source (0.96) error (0.96) has (0.94) Python (0.94) across (0.88) implemented (0.87) numpy (0.83)
+32855.89101833471
+Learning (5.53) Data (3.27) Machine (3.24) Deep (2.83) course (2.51) Science (2.39) book (2.32) paper (1.97) research (1.81) free (1.70) Andrew (1.63) Ng (1.61) Networks (1.38) Python (1.32) language (1.29) Coursera (1.11) papers (1.08) computer (1.08) reading (1.05) programming (1.03)
+31247.565721836632
+function (9.09) gradient (5.81) activation (5.76) functions (4.99) sigmoid (4.31) weights (3.99) linear (3.71) derivative (3.44) zero (3.31) cost (3.21) loss (2.87) weight (2.53) descent (2.51) neuron (2.31) neurons (2.06) ReLU (1.88) gradients (1.64) backpropagation (1.60) frac (1.54) output (1.48)
+30953.768869383923
+file (3.93) files (2.63) SQL (1.57) format (1.49) database (1.47) load (1.40) store (1.38) table (1.29) save (1.18) csv (1.11) memory (1.02) access (1.02) stored (0.99) command (0.95) query (0.93) disk (0.91) CSV (0.88) Python (0.88) name (0.82) tables (0.81)
+30944.56806647397
+class (10.83) classes (7.80) classification (6.52) positive (4.28) recall (3.43) classifier (3.41) binary (3.38) precision (3.27) negative (3.25) imbalance (2.63) false (2.57) imbalanced (2.42) accuracy (2.04) probability (1.95) true (1.72) positives (1.71) score (1.64) multi (1.63) label (1.61) confusion (1.61)
+30143.425527757416
+your (9.76) You (7.07) then (4.85) If (3.78) may (3.42) might (3.40) will (3.07) depends (2.41) Your (2.36) try (2.30) This (2.30) First (2.29) That (2.14) probably (1.71) see (1.58) answer (1.57) re (1.48) As (1.39) all (1.39) case (1.37)
+29847.435229238075
+10 (4.42) 100 (3.51) 20 (2.80) 50 (2.34) 000 (1.92) around (1.69) 30 (1.42) 1000 (1.41) 80 (1.15) observations (1.14) times (1.06) 25 (1.01) 15 (0.98) population (0.95) 60 (0.95) 70 (0.87) 500 (0.85) 90 (0.80) 40 (0.80) Each (0.72)
+29129.820887234528
+tree (4.57) decision (4.47) trees (3.92) Random (2.63) Decision (1.99) node (1.57) forest (1.50) Forest (1.32) ensemble (1.24) algorithms (1.13) nodes (1.03) pruning (0.98) random (0.98) splits (0.95) CART (0.93) Trees (0.86) split (0.84) boosting (0.83) gain (0.77) forests (0.77)
+29084.56769012658
+waste (1.89) reach (1.73) minimization (1.67) ground (1.66) truth (1.56) minimized (1.55) continuously (1.51) y$ (1.46) Small (1.41) i=0 (1.40) 06 (1.37) 84 (1.36) Among (1.35) 4$ (1.31) ending (1.29) iteratively (1.29) 02 (1.24) us (1.24) ^2$ (1.23) $C (1.21)
+28281.621133515997
+performance (4.45) results (2.84) metrics (2.53) better (2.34) improve (2.01) models (1.98) best (1.65) perform (1.58) evaluate (1.47) compare (1.43) approaches (1.42) measure (1.36) evaluation (1.35) metric (1.24) score (1.23) approach (1.19) accuracy (1.13) scores (1.10) performs (0.97) Hope (0.92)
+27373.338829436776
+mean (4.96) values (4.78) value (4.73) standard (2.73) deviation (2.29) range (2.06) scaling (1.94) normalization (1.74) missing (1.60) scale (1.59) zero (1.56) normalize (1.47) variance (1.35) absolute (1.32) average (1.18) subtracting (1.10) max (1.08) min (1.07) squared (1.00) normalized (0.96)
+26637.01172769954
+images (9.17) image (8.19) there (3.02) object (2.58) trained (2.49) CNN (2.46) Is (2.33) recognition (2.08) pre (2.08) any (2.04) detection (1.97) pixels (1.86) objects (1.67) pixel (1.60) detect (1.46) Are (1.28) black (1.23) bounding (1.11) face (1.07) task (1.03)
+26375.925609073973
+learning (13.28) machine (8.50) algorithms (4.80) deep (3.68) algorithm (2.63) techniques (2.38) problems (2.33) methods (2.20) real (1.79) world (1.70) supervised (1.67) learn (1.52) experience (1.36) models (1.32) complex (1.26) human (1.12) Deep (1.12) such (1.12) ML (1.12) Learning (1.08)
+25993.25543641746
+at (13.27) take (5.20) look (4.87) time (3.24) least (2.46) end (2.28) point (2.24) into (2.04) up (1.96) starting (1.80) over (1.49) step (1.41) start (1.38) account (1.28) At (1.24) relatively (1.21) expect (1.12) all (0.91) may (0.89) last (0.87)
+25437.14543418024
+variable (8.62) regression (8.37) variables (7.75) linear (5.00) Regression (3.58) logistic (2.87) answer (2.82) dependent (2.62) question (2.62) independent (2.58) coefficients (2.48) Linear (2.16) categorical (2.11) Logistic (2.10) continuous (1.83) target (1.74) correlation (1.65) outcome (1.53) relationship (1.40) correlated (1.33)
+24251.16042402488
+feature (7.44) features (5.63) PCA (3.96) reduction (3.87) dimensionality (3.36) space (2.48) selection (2.35) reduce (2.11) Feature (2.00) important (1.68) Principal (1.58) Component (1.56) components (1.54) component (1.51) dimensions (1.50) dimensional (1.41) importance (1.39) extraction (1.32) Dimensionality (1.22) correlated (1.20)
+23324.958629047807
+validation (8.69) cross (8.44) test (8.03) set (4.33) fold (4.14) accuracy (3.78) split (3.52) dataset (3.21) classifier (3.01) testing (2.67) training (2.39) Bayes (2.28) train (2.20) Naive (2.11) sets (2.05) SVM (1.95) performance (1.74) results (1.69) folds (1.45) score (1.22)
+22711.67468445424
+For (5.30) each (4.98) example (4.49) second (4.21) column (4.09) first (4.07) columns (3.80) row (3.70) matrix (3.27) rows (2.89) Each (2.62) two (2.53) dataframe (1.50) one (1.47) number (1.36) unique (1.29) matrices (1.25) instance (1.22) three (1.16) represents (1.14)
+20601.575919027895
+categorical (4.95) hot (4.11) random (3.53) encoding (3.49) numerical (1.96) convert (1.92) encoded (1.89) bias (1.89) encode (1.71) overfitting (1.68) into (1.48) variance (1.45) one (1.44) noise (1.35) One (1.29) randomly (1.18) numeric (1.17) trees (1.14) fitting (1.10) variables (1.09)
+20343.208037657605
+https (11.42) com (8.46) org (4.64) github (4.52) www (3.44) pdf (2.12) blob (2.09) questions (1.94) en (1.91) html (1.85) master (1.85) blog (1.84) arxiv (1.80) python (1.65) py (1.63) keras (1.57) post (1.53) io (1.49) wiki (1.44) wikipedia (1.39)
+19934.144769869486
+me (8.57) know (4.31) understand (3.65) explain (3.58) Can (3.43) someone (3.32) help (3.25) let (3.07) understanding (3.06) anyone (2.83) please (2.76) why (2.25) Thanks (2.09) don (1.94) how (1.94) Do (1.85) appreciated (1.83) advance (1.76) Please (1.71) Link (1.60)
+18704.04811910332
+predict (6.30) prediction (4.88) label (3.35) model (2.67) predictions (2.66) labels (2.65) predicted (2.62) predicting (2.49) labeled (1.86) categories (1.85) category (1.56) supervised (1.45) predicts (0.98) build (0.96) train (0.93) classify (0.87) given (0.85) manually (0.84) future (0.81) exclusive (0.77)
+17834.12672478519
+softmax (4.78) output (4.09) activation (3.30) loss (3.14) entropy (3.09) outputs (2.98) sigmoid (2.58) function (1.88) generator (1.66) tanh (1.63) discriminator (1.46) generated (1.46) probabilities (1.44) produce (1.29) GAN (1.25) real (1.15) generate (1.13) probability (1.11) network (1.06) adversarial (0.97)
+17789.730135801143
+am (7.29) my (7.27) My (6.52) trying (5.12) working (3.26) vector (3.24) Any (3.15) appreciated (2.21) vectors (2.21) tried (1.99) currently (1.83) wrong (1.57) question (1.52) getting (1.38) was (1.35) project (1.34) me (1.25) suggestions (1.19) representation (1.19) dimension (1.06)
